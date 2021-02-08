@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/lblLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Local"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switchSalvLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Salvar Localização"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/botMap"
+        app:layout_constraintTop_toTopOf="@id/lblLocal" />
+
+    <TextView
+        android:id="@+id/textViewNumProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Nº de Produtos"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/lblLocal" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Data"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/txtDataComp"
+        app:layout_constraintTop_toBottomOf="@+id/txtLocalComp" />
+
+    <TextView
+        android:id="@+id/lblHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora:"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/txtDataComp"
+        app:layout_constraintTop_toBottomOf="@+id/txtDataComp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Total"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/txtValTot"
+        app:layout_constraintTop_toTopOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Produtos"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@id/txtDataComp"
+        app:layout_constraintTop_toBottomOf="@id/txtHoraComp" />
+
+    <TextView
+        android:id="@+id/txtLocalComp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tenda"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/lblLocal"
+        app:layout_constraintTop_toBottomOf="@id/lblLocal" />
+
+
+    <TextView
+        android:id="@+id/txtNumProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewNumProd"
+        app:layout_constraintStart_toStartOf="@+id/textViewNumProd"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNumProd" />
+
+    <TextView
+        android:id="@+id/txtDataComp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00/00/0000"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/txtLocalComp"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/txtValTot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$422.50"
+        android:textColor="@color/corDinheiro"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewNumProd"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+
+    <TextView
+        android:id="@+id/txtHoraComp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="00:00"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/lblHora"
+        app:layout_constraintTop_toBottomOf="@+id/txtDataComp" />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/darkgray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lstProdComp"
+        android:layout_width="0dp"
+        android:layout_height="520dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <ImageButton
+        android:id="@+id/botMap"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/design_default_color_surface"
+        android:onClick="botMap"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/txtLocalComp"
+        app:layout_constraintStart_toEndOf="@id/lblLocal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_icons8_google_maps" />
+
+    <ImageButton
+        android:id="@+id/botImagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="displayImage"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/txtValTot"
+        app:layout_constraintStart_toStartOf="@+id/txtValTot"
+        app:layout_constraintTop_toBottomOf="@+id/txtValTot"
+        app:srcCompat="@drawable/ic_image_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/botCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="captureImage"
+        app:layout_constraintEnd_toStartOf="@+id/botPasta"
+        app:layout_constraintTop_toBottomOf="@+id/txtValTot"
+        app:srcCompat="@drawable/ic_photo_camera_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/botPasta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="escolherFoto"
+        android:tint="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/txtValTot"
+        app:layout_constraintTop_toBottomOf="@+id/txtValTot"
+        app:srcCompat="@drawable/ic_baseline_folder_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

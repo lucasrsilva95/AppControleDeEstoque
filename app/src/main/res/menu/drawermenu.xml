@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menudrawer">
+    <item
+        android:id="@+id/compras"
+        android:icon="@drawable/ic_list_black_24dp"
+        android:title="Compras" />
+    <item
+        android:id="@+id/comprasFuturas"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        android:title="Compras Futuras" />
+    <item
+        android:id="@+id/estoque"
+        android:icon="@drawable/ic_store_black_24dp"
+        android:title="Estoque" />
+    <item
+        android:id="@+id/produtos"
+        android:title="Produtos"
+        android:icon="@drawable/ic_shopping_basket_black_24dp"/>
+
+    <item
+        android:id="@+id/config"
+        android:title="Configurações"
+        android:icon="@drawable/ic_settings_black_24dp"/>
+</menu>

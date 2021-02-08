@@ -1,0 +1,4 @@
+#Mon Feb 08 01:26:58 BRT 2021
+base.0=C\:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

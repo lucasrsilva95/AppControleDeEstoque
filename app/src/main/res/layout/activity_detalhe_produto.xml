@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProdList">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:text="Nome"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewNumProd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:layout_marginRight="80dp"
+                android:text="Categoria"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView22" />
+
+            <TextView
+                android:id="@+id/lblDuracao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Duração"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/txtLocalComp"
+                app:layout_constraintTop_toBottomOf="@+id/txtLocalComp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Último Preço"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/textViewNumProd"
+                app:layout_constraintTop_toTopOf="@+id/lblDuracao" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="60dp"
+                android:text="Histórico de Compras"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtDataVencimento" />
+
+            <TextView
+                android:id="@+id/txtLocalComp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arroz"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                app:layout_constraintStart_toStartOf="@+id/textView22"
+                app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+
+            <TextView
+                android:id="@+id/txtNumProd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grãos"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                app:layout_constraintStart_toStartOf="@+id/textViewNumProd"
+                app:layout_constraintTop_toBottomOf="@+id/textViewNumProd" />
+
+            <TextView
+                android:id="@+id/txtDataComp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 dias"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                app:layout_constraintStart_toStartOf="@+id/lblDuracao"
+                app:layout_constraintTop_toBottomOf="@+id/lblDuracao" />
+
+            <TextView
+                android:id="@+id/txtValTot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$22.50"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                app:layout_constraintStart_toStartOf="@+id/textView27"
+                app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Dias desde a última compra:"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/txtDataComp"
+                app:layout_constraintTop_toBottomOf="@+id/txtDataComp" />
+
+            <TextView
+                android:id="@+id/txtDiasUltComp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 dias"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                app:layout_constraintStart_toStartOf="@id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <TextView
+                android:id="@+id/lblDataVencimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Este produto irá acabar dia:"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/txtDataComp"
+                app:layout_constraintTop_toBottomOf="@id/txtDiasUltComp" />
+
+            <TextView
+                android:id="@+id/txtDataVencimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28/12/2020"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                app:layout_constraintStart_toStartOf="@id/lblDataVencimento"
+                app:layout_constraintTop_toBottomOf="@id/lblDataVencimento" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/darkgray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/darkgray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView10" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/lstHistProd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider5" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/lstProdCompFut"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Compras Futuras:"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lstHistProd" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

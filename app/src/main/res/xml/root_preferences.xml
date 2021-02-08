@@ -1,0 +1,123 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:title="Compras Futuras">
+
+        <ListPreference
+            android:id="@+id/pref_Period"
+            android:icon="@drawable/ic_replay_black_24dp"
+            android:visibility="visible"
+            app:defaultValue="Semanal"
+            app:entries="@array/period_entries"
+            app:entryValues="@array/period_values"
+            app:key="period_comp"
+            app:title="Periodicidade da Compra"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            android:id="@+id/pref_DiaSemana"
+            android:defaultValue="Domingo"
+            android:dependency="period_comp"
+            android:icon="@drawable/ic_domingo"
+            app:defaultValue="Domingo"
+            app:entries="@array/diaSemana_entries"
+            app:entryValues="@array/diaSemana_values"
+            app:key="diaSemana_comp"
+            app:title="Dia da semana para realizar a Compra"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            android:id="@+id/pref_DiaMes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="1"
+            android:dependency="period_comp"
+            android:icon="@drawable/ic_calendariodia"
+            app:defaultValue="1"
+            app:entries="@array/diasMes_entries"
+            app:entryValues="@array/diasMes_values"
+            app:key="diaMes_comp"
+            app:title="Dia do mês para realizar a Compra"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            android:id="@+id/pref_Detalhe_Period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:dependency="period_comp"
+            android:icon="@drawable/ic_autorenew_black_24dp"
+            android:visibility="visible"
+            app:defaultValue="1"
+            app:entries="@array/detalhe_Period_Semana_entries"
+            app:entryValues="@array/detalhe_Period_values"
+            app:key="detalhe_period_comp"
+            app:title="Realizar compra a cada"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="Data e Hora">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:icon="@drawable/ic_access_time_black_24dp"
+            app:key="horaMin_switch"
+            app:summaryOff="Data: 00/00/0000"
+            app:summaryOn="Data: 00/00/0000 - 00:00"
+            app:title="Representar Hora e Minuto" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Local da Compra">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:key="switch_SalvLoc"
+            android:switchTextOff="Não Salvar Localização"
+            android:switchTextOn="Salvar Localização Atual"
+            android:title="Salvar Localização Atual" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Notificações">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:key="switch_notific"
+            android:title="Notificar compra do dia" />
+        <Preference
+            android:defaultValue="09:00"
+            app:icon="@drawable/ic_access_time_black_24dp"
+            android:dependency="switch_notific"
+            android:key="horaNotif"
+            android:summary="09:00"
+            android:title="Horário da Notificação" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Pagina Inicial">
+
+        <ListPreference
+            app:defaultValue="Compras"
+            app:entries="@array/act_ini_entries"
+            app:entryValues="@array/act_ini_values"
+            app:icon="@drawable/ic_looks_one_black_24dp"
+            app:key="act_ini"
+            app:title="Pagina Inicial"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Backup">
+
+        <Preference
+            app:icon="@drawable/ic_baseline_cloud_upload_24"
+            app:key="salvar_backup"
+            app:title="Realizar Backup dos Dados"
+            android:summary="O arquivo de backup será salvo na pasta Controle_De_Estoque/Backups no armazenamento interno" />
+
+        <Preference
+            app:icon="@drawable/ic_baseline_cloud_download_24"
+            app:key="carregar_backup"
+            app:title="Carregar Backup dos Dados"
+            android:summary="O arquivo de backup deve estar salvo na pasta Controle_De_Estoque/Backups no armazenamento interno" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

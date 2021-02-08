@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="Data:"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="@id/txtDataCompFut"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/txtDataCompFut" />
+
+        <TextView
+            android:id="@+id/TextView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:gravity="center"
+            android:text="Valor Total:"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="@id/txtValTotProd"
+            app:layout_constraintEnd_toStartOf="@id/txtValTotProd"
+            app:layout_constraintTop_toTopOf="@id/txtValTotProd" />
+
+        <TextView
+            android:id="@+id/lblUniHistProd"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="un"
+            android:textSize="12dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@id/txtQuant"
+            app:layout_constraintEnd_toStartOf="@+id/lblValUniKg"
+            app:layout_constraintTop_toTopOf="@id/txtQuant"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/lblValUniKg"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:gravity="center"
+            android:text="Preço:"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="@id/txtPrecoUni"
+            app:layout_constraintEnd_toStartOf="@id/txtPrecoUni"
+            app:layout_constraintTop_toTopOf="@+id/txtPrecoUni" />
+
+        <TextView
+            android:id="@+id/txtDataCompFut"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="00/00/0000"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtQuant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:gravity="center"
+            android:text="00"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/lblValUniKg"
+            app:layout_constraintEnd_toStartOf="@+id/lblUniHistProd"
+            app:layout_constraintTop_toTopOf="@+id/lblValUniKg"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/txtPrecoUni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:text="R$000.00"
+            android:textColor="@color/corDinheiro"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtValTotProd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="R$000.00"
+            android:textColor="@color/corDinheiro"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/darkgray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

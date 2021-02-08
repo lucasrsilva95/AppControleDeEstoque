@@ -1,0 +1,144 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="period_entries">
+        <item>Semanal</item>
+        <item>Mensal</item>
+    </string-array>
+
+    <string-array name="period_values">
+        <item>Semanal</item>
+        <item>Mensal</item>
+    </string-array>
+
+    <string-array name="detalhe_Period_Semana_entries">
+        <item>1 Semana</item>
+        <item>2 Semanas</item>
+        <item>3 Semanas</item>
+    </string-array>
+
+    <string-array name="detalhe_Period_Mes_entries">
+        <item>1 Mês</item>
+        <item>2 Meses</item>
+        <item>3 Meses</item>
+    </string-array>
+
+    <string-array name="detalhe_Period_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="maxDias_entries">
+        <item>30 dias</item>
+        <item>60 dias</item>
+        <item>90 dias</item>
+    </string-array>
+
+    <string-array name="maxDias_values">
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+    </string-array>
+
+    <string-array name="diaSemana_entries">
+        <item>Segunda-Feira</item>
+        <item>Terça-Feira</item>
+        <item>Quarta-Feira</item>
+        <item>Quinta-Feira</item>
+        <item>Sexta-Feira</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+
+    <string-array name="diaSemana_values">
+        <item>Segunda-Feira</item>
+        <item>Terça-Feira</item>
+        <item>Quarta-Feira</item>
+        <item>Quinta-Feira</item>
+        <item>Sexta-Feira</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+
+    <string-array name="diasMes_entries">
+        <item>Dia 1</item>
+        <item>Dia 2</item>
+        <item>Dia 3</item>
+        <item>Dia 4</item>
+        <item>Dia 5</item>
+        <item>Dia 6</item>
+        <item>Dia 7</item>
+        <item>Dia 8</item>
+        <item>Dia 9</item>
+        <item>Dia 10</item>
+        <item>Dia 11</item>
+        <item>Dia 12</item>
+        <item>Dia 13</item>
+        <item>Dia 14</item>
+        <item>Dia 15</item>
+        <item>Dia 16</item>
+        <item>Dia 17</item>
+        <item>Dia 18</item>
+        <item>Dia 19</item>
+        <item>Dia 20</item>
+        <item>Dia 21</item>
+        <item>Dia 22</item>
+        <item>Dia 23</item>
+        <item>Dia 24</item>
+        <item>Dia 25</item>
+        <item>Dia 26</item>
+        <item>Dia 27</item>
+        <item>Dia 28</item>
+        <item>Dia 29</item>
+        <item>Dia 30</item>
+        <item>Dia 31</item>
+    </string-array>
+
+    <string-array name="diasMes_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="act_ini_entries">
+        <item>Compras</item>
+        <item>Compras Futuras</item>
+        <item>Estoque</item>
+        <item>Produtos</item>
+    </string-array>
+
+    <string-array name="act_ini_values">
+        <item>Compras</item>
+        <item>Compras Futuras</item>
+        <item>Estoque</item>
+        <item>Produtos</item>
+    </string-array>
+</resources>

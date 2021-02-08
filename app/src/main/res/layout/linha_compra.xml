@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:foreground="?attr/selectableItemBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutGeralComp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/lblCateg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Categoria:"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/txtCateg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtCateg" />
+
+        <TextView
+            android:id="@+id/txtCateg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Categoria"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/lblCateg"
+            app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="27dp"
+            android:gravity="center_vertical"
+            android:text="Nome"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintStart_toEndOf="@+id/select"
+            app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/lblMarca"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:gravity="center_vertical"
+                android:text="Marca:"
+                android:textSize="12sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/txtMarca"
+                app:layout_constraintStart_toStartOf="@+id/txtNome"
+                app:layout_constraintTop_toTopOf="@+id/txtMarca" />
+
+        <TextView
+            android:id="@+id/txtMarca"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_vertical"
+            android:text="Marca"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/lblMarca" />
+
+            <TextView
+                android:id="@+id/lblUltPreco"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:gravity="center"
+                android:text="Ultimo Preço:"
+                android:textSize="12sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/txtNumItens"
+                app:layout_constraintEnd_toStartOf="@+id/txtNumItens"
+                app:layout_constraintTop_toTopOf="@+id/txtNumItens" />
+
+        <Spinner
+            android:id="@+id/spinnerQuant"
+            android:layout_width="85dp"
+            android:layout_height="60dp"
+            android:animationCache="false"
+            android:dropDownWidth="80dp"
+            android:gravity="end"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@id/edtPreco"
+            app:layout_constraintEnd_toStartOf="@+id/lblQuant" />
+
+        <EditText
+            android:id="@+id/edtQuant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:gravity="center"
+            android:hint="1"
+            android:inputType="numberDecimal"
+            android:visibility="visible"
+            app:layout_constraintEnd_toStartOf="@+id/lblQuant"
+            app:layout_constraintTop_toTopOf="@+id/txtSifrao" />
+
+        <TextView
+                android:id="@+id/txtNumItens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:text="R$00.00"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtSifrao"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="R$"
+                android:textColor="#000000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/edtPreco"
+                app:layout_constraintEnd_toStartOf="@+id/edtPreco"
+                app:layout_constraintTop_toTopOf="@+id/edtPreco" />
+
+        <TextView
+            android:id="@+id/lblQuant"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="7dp"
+            android:gravity="center"
+            android:text="un"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/edtQuant"
+            app:layout_constraintEnd_toStartOf="@+id/txtSifrao"
+            app:layout_constraintTop_toTopOf="@+id/edtQuant" />
+
+            <TextView
+                android:id="@+id/txtValTotProd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="2dp"
+                android:text="R$0.00"
+                android:textColor="@color/corDinheiro"
+                android:textSize="18sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/lblValTotProd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="right"
+            android:text="Valor Total:"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/txtValTotProd"
+            app:layout_constraintEnd_toStartOf="@+id/txtValTotProd"
+            app:layout_constraintTop_toTopOf="@+id/txtValTotProd" />
+
+        <EditText
+                android:id="@+id/edtPreco"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="numberDecimal"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/txtValTotProd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtNumItens" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/darkgray"
+            app:layout_constraintBottom_toBottomOf="@+id/layoutGeralComp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

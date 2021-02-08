@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/prodLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/lblCateg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Categoria:"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/layout1"
+            app:layout_constraintTop_toTopOf="@+id/layout2" />
+
+        <TextView
+            android:id="@+id/txtCateg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="Categoria"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/lblCateg"
+            app:layout_constraintStart_toEndOf="@+id/lblCateg"
+            app:layout_constraintTop_toTopOf="@+id/lblCateg" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/lblNome"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:text="Nome:"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/txtLocalComp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txtLocalComp" />
+
+            <TextView
+                android:id="@+id/lblMarca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:text="Marca:"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@+id/lblNome"
+                app:layout_constraintTop_toBottomOf="@+id/lblNome" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:gravity="center_vertical"
+                android:text="Ultimo Preço:"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/txtValTot"
+                app:layout_constraintEnd_toStartOf="@+id/txtValTot"
+                app:layout_constraintTop_toTopOf="@+id/txtValTot" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:gravity="center_vertical"
+                android:text="Última Compra:"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/txtUltComp"
+                app:layout_constraintEnd_toStartOf="@+id/txtUltComp"
+                app:layout_constraintTop_toTopOf="@+id/txtUltComp" />
+
+            <TextView
+                android:id="@+id/lblProxComp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:gravity="center_vertical"
+                android:text="Próxima Compra:"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/txtProxComp"
+                app:layout_constraintEnd_toStartOf="@id/txtProxComp"
+                app:layout_constraintTop_toTopOf="@id/txtProxComp" />
+
+            <TextView
+                android:id="@+id/txtProxComp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_vertical"
+                android:text="00/00/0000"
+                android:textColor="#1C1C1C"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/txtUltComp"
+                app:layout_constraintTop_toBottomOf="@+id/txtUltComp" />
+
+            <TextView
+                android:id="@+id/txtLocalComp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="17dp"
+                android:gravity="center_vertical"
+                android:text="Nome"
+                android:textColor="#1C1C1C"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/textView6"
+                app:layout_constraintStart_toEndOf="@+id/lblNome"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtMarca"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:gravity="center_vertical"
+                android:text="Marca"
+                android:textColor="#1C1C1C"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/lblMarca"
+                app:layout_constraintEnd_toStartOf="@+id/textView6"
+                app:layout_constraintStart_toEndOf="@+id/lblMarca"
+                app:layout_constraintTop_toTopOf="@+id/lblMarca" />
+
+            <TextView
+                android:id="@+id/txtValTot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:text="R$00.00"
+                android:textColor="@color/corDinheiro"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtUltComp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:text="00/00/0000"
+                android:textColor="#1C1C1C"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/txtValTot"
+                app:layout_constraintTop_toBottomOf="@+id/txtValTot" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/darkgray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

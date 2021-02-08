@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="Nome:"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="@id/txtNomeProdComp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/txtNomeProdComp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="Marca:"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="@id/txtMarcaProd"
+            app:layout_constraintStart_toStartOf="@+id/textView5"
+            app:layout_constraintTop_toTopOf="@id/txtMarcaProd" />
+
+        <TextView
+            android:id="@+id/lblValTot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:gravity="center"
+            android:text="Valor Total:"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="@id/txtTotProdComp"
+            app:layout_constraintEnd_toStartOf="@id/txtTotProdComp"
+            app:layout_constraintTop_toTopOf="@id/txtTotProdComp" />
+
+        <TextView
+            android:id="@+id/lblUnidade"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="un"
+            android:textSize="12dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@id/txtQuantProdComp"
+            app:layout_constraintEnd_toStartOf="@id/lblValTotValKg"
+            app:layout_constraintTop_toTopOf="@id/txtQuantProdComp"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/lblValTotValKg"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:gravity="center"
+            android:text="Preço:"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="@id/txtPrecoUniComp"
+            app:layout_constraintEnd_toStartOf="@id/txtPrecoUniComp"
+            app:layout_constraintTop_toTopOf="@+id/txtPrecoUniComp" />
+
+        <TextView
+            android:id="@+id/txtNomeProdComp"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="Sabao em Pó"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtMarcaProd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="OMO"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/txtNomeProdComp"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@id/txtNomeProdComp" />
+
+        <TextView
+            android:id="@+id/txtQuantProdComp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:gravity="center"
+            android:text="00"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@id/lblValTotValKg"
+            app:layout_constraintEnd_toStartOf="@+id/lblUnidade"
+            app:layout_constraintTop_toTopOf="@id/lblValTotValKg"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/txtPrecoUniComp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:text="R$000.00"
+            android:textColor="@color/corDinheiro"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txtNomeProdComp" />
+
+        <TextView
+            android:id="@+id/txtTotProdComp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="R$000.00"
+            android:textColor="@color/corDinheiro"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/darkgray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

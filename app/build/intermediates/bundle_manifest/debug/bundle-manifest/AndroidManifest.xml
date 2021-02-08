@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.controledeestoque"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.Camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" /> <!-- Include required permissions for Google Maps API to run. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <receiver android:name="com.example.controledeestoque.Receiver" />
+        <receiver
+            android:name="com.example.controledeestoque.BootService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.controledeestoque.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+
+        <activity android:name="com.example.controledeestoque.Estoque" />
+        <activity android:name="com.example.controledeestoque.DisplayImage" />
+        <activity android:name="com.example.controledeestoque.SettingsActivity" />
+        <activity android:name="com.example.controledeestoque.ComprasFuturas" />
+        <activity android:name="com.example.controledeestoque.CompList" />
+        <activity android:name="com.example.controledeestoque.DetalhesCompra" />
+        <activity
+            android:name="com.example.controledeestoque.NovaCompra"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout" />
+        <activity android:name="com.example.controledeestoque.DetalhesProduto" />
+        <activity android:name="com.example.controledeestoque.ProdList" />
+        <activity android:name="com.example.controledeestoque.Mapa" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDH2n7JVnFLrZqliZqP6Gt0xP9EXbyFcsQ" />
+
+        <!-- <activity android:name=".Adapters.ProdutoAdapter" /> -->
+        <!-- <activity android:name=".Adapters.CompraAdapter" -->
+        <!-- android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout"/> -->
+        <activity
+            android:name="com.example.controledeestoque.NovoProduto"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name="com.example.controledeestoque.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.allyants.notifyme.BootNotifyMe"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name="com.allyants.notifyme.ActionReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name="com.allyants.notifyme.DeletePendingIntent"
+            android:enabled="true"
+            android:exported="true" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

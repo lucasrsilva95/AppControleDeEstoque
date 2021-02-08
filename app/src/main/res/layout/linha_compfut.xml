@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="Data:"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="@id/txtDataCompFut"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/txtDataCompFut" />
+
+        <TextView
+            android:id="@+id/lblValTotValKg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:gravity="center"
+            android:text="Valor Total:"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="@id/txtValTotCompFut"
+            app:layout_constraintEnd_toStartOf="@id/txtValTotCompFut"
+            app:layout_constraintTop_toTopOf="@id/txtValTotCompFut" />
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="Número de Itens:"
+            android:textSize="12dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@id/txtNumItensCompFut"
+            app:layout_constraintStart_toStartOf="@id/lblValTotValKg"
+            app:layout_constraintTop_toTopOf="@+id/txtNumItensCompFut" />
+
+        <TextView
+            android:id="@+id/txtDataCompFut"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="00/00/0000"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtNumItensCompFut"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="00"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintStart_toEndOf="@+id/TextView1"
+            app:layout_constraintTop_toBottomOf="@id/txtValTotCompFut" />
+
+        <TextView
+            android:id="@+id/txtValTotCompFut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:text="R$000.00"
+            android:textColor="@color/corDinheiro"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/darkgray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtHoje"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="#B1B1B1"
+            android:gravity="center"
+            android:text="HOJE"
+            android:textColor="#B51616"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/TextView1"
+            app:layout_constraintStart_toEndOf="@+id/txtDataCompFut"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

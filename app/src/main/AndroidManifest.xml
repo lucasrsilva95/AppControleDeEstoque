@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.controledeestoque">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-feature
+        android:name="android.hardware.Camera"
+        android:required="true" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:requestLegacyExternalStorage="true"
+        tools:targetApi="q">
+        <receiver android:name=".Receiver" />
+        <receiver
+            android:name=".BootService"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+        <activity android:name=".Estoque" />
+        <activity android:name=".DisplayImage" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".ComprasFuturas" />
+        <activity android:name=".CompList" />
+        <activity android:name=".DetalhesCompra" />
+        <activity android:name=".NovaCompra"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout"/>
+        <activity android:name=".DetalhesProduto" />
+        <activity android:name=".ProdList" />
+        <activity android:name=".Mapa" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDH2n7JVnFLrZqliZqP6Gt0xP9EXbyFcsQ" />
+
+        <!--        <activity android:name=".Adapters.ProdutoAdapter" />-->
+<!--        <activity android:name=".Adapters.CompraAdapter"-->
+<!--            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout"/>-->
+        <activity
+            android:name=".NovoProduto"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

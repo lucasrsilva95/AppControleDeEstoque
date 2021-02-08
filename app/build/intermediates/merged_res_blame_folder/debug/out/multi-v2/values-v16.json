@@ -1,0 +1,57 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lucas\\.gradle\\caches\\transforms-2\\files-2.1\\773e29d5c71b6fb18e584180a8b412f8\\jetified-materialdatetimepicker-3.6.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2,3,6,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,153,286,405",
+                        "endLines": "2,5,8,11",
+                        "endColumns": "97,12,12,12",
+                        "endOffsets": "148,281,400,517"
+                    },
+                    "to": {
+                        "startLines": "3,8,11,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "121,392,525,644",
+                        "endLines": "3,10,13,16",
+                        "endColumns": "97,12,12,12",
+                        "endOffsets": "214,520,639,756"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lucas\\.gradle\\caches\\transforms-2\\files-2.1\\780dca39713ff2fcf4eadcaf494ac982\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "219",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "387"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lucas\\.gradle\\caches\\transforms-2\\files-2.1\\73530a2d0c1df4b3085807c82555ce12\\core-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}
