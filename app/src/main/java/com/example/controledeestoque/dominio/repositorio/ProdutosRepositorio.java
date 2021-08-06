@@ -263,7 +263,7 @@ public class ProdutosRepositorio {
     public int prodJaExiste(Produto prod){
         List<Produto> list = buscarTodos();
         for(Produto p:list){
-            if(p.nome.toUpperCase().contentEquals(prod.nome.toUpperCase()) && p.marca.toUpperCase().contentEquals(prod.marca.toUpperCase())){
+            if(p.nome.toUpperCase().contentEquals(prod.nome.toUpperCase())){
                 return p.codigo;
             }
         }

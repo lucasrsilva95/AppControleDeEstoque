@@ -1,342 +1,342 @@
 [
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\xml_root_preferences.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\xml\\root_preferences.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detalhes_compra.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\activity_detalhes_compra.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete_white_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_delete_white_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_shopping_cart_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_add_shopping_cart_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_cloud_upload_24.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_baseline_cloud_upload_24.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_list_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_list_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_circle_outline_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_add_circle_outline_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\anim_rotate_backward.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\anim\\rotate_backward.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_shopping_cart_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_shopping_cart_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mapa.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\activity_mapa.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_map_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_map_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_novoprod.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\content_novoprod.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_prod_estoque.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\linha_prod_estoque.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\anim_rotate_forward.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\anim\\rotate_forward.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_settings_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_settings_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_mes_compra.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\linha_mes_compra.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_prodscomp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\linha_prodscomp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_settings_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_settings_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_group_compra.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\group_compra.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\menu_drawermenu.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\menu\\drawermenu.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_categ_prod_compra.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\linha_categ_prod_compra.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit_white_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_edit_white_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit_white_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_edit_white_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_group_compra.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\group_compra.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_access_time_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_access_time_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\anim_fab_open.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\anim\\fab_open.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_list_comp_fut.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\activity_list_comp_fut.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_activity.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\settings_activity.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_shopping_cart_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_add_shopping_cart_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_list_compras.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\activity_list_compras.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_categ.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\linha_categ.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_novoprod.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\content_novoprod.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_novacompra.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\content_novacompra.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_looks_one_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_looks_one_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detalhes_compra.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\activity_detalhes_compra.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_map_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_map_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_mes_compra.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\linha_mes_compra.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ordenar_categorias.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\activity_ordenar_categorias.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_replay_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_replay_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_categ_prod_compra.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\linha_categ_prod_compra.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_compfut.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\linha_compfut.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_detalhe.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\menu\\menu_detalhe.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_save_white_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_save_white_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_detalheprod.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\content_detalheprod.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_list_compras.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\activity_list_compras.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_shopping_basket_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_shopping_basket_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_list_comp_fut.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\activity_list_comp_fut.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_nova_compra.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\activity_nova_compra.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_image_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_image_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_foto.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\menu\\menu_foto.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_folder_24.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_baseline_folder_24.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_path.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\xml\\file_path.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_compfut.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\linha_compfut.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_compra.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\linha_compra.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_prodscomp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\linha_prodscomp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_produto.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\linha_produto.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_cloud_download_24.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_baseline_cloud_download_24.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\anim_fab_close.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\anim\\fab_close.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_iconmonstr_calendar_4.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_iconmonstr_calendar_4.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icons8_google_maps.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_icons8_google_maps.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_novoprod.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\activity_novoprod.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calendariodia.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_calendariodia.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_header.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\header.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\xml_root_preferences.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\xml\\root_preferences.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_categ_prod.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\linha_categ_prod.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_image_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_image_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_shopping_basket_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_shopping_basket_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete_white_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_delete_white_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_prod_estoque.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\linha_prod_estoque.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_compfutprod.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\linha_compfutprod.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_looks_one_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_looks_one_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_estoque.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\activity_estoque.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_add_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_estoque.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\activity_estoque.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_detalhe.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\menu\\menu_detalhe.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_domingo.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_domingo.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_photo_camera_white_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_photo_camera_white_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_complist.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\linha_complist.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_circle_outline_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_add_circle_outline_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_compfutprod.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\linha_compfutprod.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_mapa.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\menu\\menu_mapa.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_nova_compra.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\activity_nova_compra.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_domingo.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_domingo.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_autorenew_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_autorenew_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_list_prod.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\activity_list_prod.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header.jpg.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\header.jpg"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_detalhescomp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\content_detalhescomp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_atualizar_white_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_atualizar_white_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_store_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_store_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_autorenew_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_autorenew_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\anim_fab_close.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\anim\\fab_close.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_cloud_upload_24.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_baseline_cloud_upload_24.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_novacompra.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\content_novacompra.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\menu_menunovacomp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\menu\\menunovacomp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_cloud_download_24.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_baseline_cloud_download_24.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_mapa.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\menu\\menu_mapa.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_photo_camera_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_photo_camera_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detalhe_produto.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\activity_detalhe_produto.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ordenar_categorias.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\activity_ordenar_categorias.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\menu_menunovacomp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\menu\\menunovacomp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_display_image.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\activity_display_image.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_detalheprod.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\content_detalheprod.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_compra.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\linha_compra.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_novoprod.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\activity_novoprod.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_photo_camera_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_photo_camera_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_categ.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\linha_categ.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_compfut.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\menu\\menu_compfut.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_shopping_cart_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_shopping_cart_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_list_prod.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\activity_list_prod.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_header.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\header.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_historicoprod.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\linha_historicoprod.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_save_white_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_save_white_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\anim_fab_open.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\anim\\fab_open.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\menu_drawermenu.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\menu\\drawermenu.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_atualizar_white_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_atualizar_white_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_categ_prod.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\linha_categ_prod.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\anim_rotate_backward.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\anim\\rotate_backward.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_folder_24.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_baseline_folder_24.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_compfut.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\menu\\menu_compfut.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_add_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_list_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_list_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_complist.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\linha_complist.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_path.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\xml\\file_path.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_display_image.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\activity_display_image.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\anim_rotate_forward.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\anim\\rotate_forward.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mapa.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\activity_mapa.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calendariodia.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_calendariodia.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header.jpg.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\header.jpg"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_iconmonstr_calendar_4.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_iconmonstr_calendar_4.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_replay_black_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_replay_black_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_store_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_store_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_foto.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\menu\\menu_foto.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_produto.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\linha_produto.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_access_time_black_24dp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_access_time_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_detalhescomp.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\content_detalhescomp.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detalhe_produto.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\activity_detalhe_produto.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha_historicoprod.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\layout\\linha_historicoprod.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_activity.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\layout\\settings_activity.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_photo_camera_white_24dp.xml.flat",
-        "source": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_photo_camera_white_24dp.xml"
+        "merged": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icons8_google_maps.xml.flat",
+        "source": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\src\\main\\res\\drawable\\ic_icons8_google_maps.xml"
     }
 ]

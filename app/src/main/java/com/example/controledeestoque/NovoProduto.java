@@ -34,7 +34,7 @@ public class NovoProduto extends AppCompatActivity{
     private int codigo;
     private boolean atualizar;
 
-    private EditText edtNome,edtCategoria,edtMarca;
+    private EditText edtNome,edtCategoria;
     private Spinner spinnerUnidade,spinnerCategoria;
     private Button botSalvar;
     private DrawerLayout mDrawer;
@@ -62,7 +62,6 @@ public class NovoProduto extends AppCompatActivity{
 //        InputMethodManager imm=(InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
 //        imm.showSoftInput(edtNome, InputMethodManager.SHOW_IMPLICIT);
         edtCategoria = (EditText) findViewById(R.id.edtCategoria);
-        edtMarca = (EditText) findViewById(R.id.edtMarca);
         botSalvar = (Button) findViewById(R.id.botaoSalvar);
         spinnerUnidade = (Spinner) findViewById(R.id.spinnerUnidade);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,unidades());
@@ -86,7 +85,6 @@ public class NovoProduto extends AppCompatActivity{
         if (!validaCampos()) {
             final Produto prod = new Produto();
             prod.nome = edtNome.getText().toString();
-            prod.marca = edtMarca.getText().toString();
             if (edtCategoria.getVisibility() == View.VISIBLE) {
                 prod.categoria = edtCategoria.getText().toString();
             } else {
@@ -155,7 +153,6 @@ public class NovoProduto extends AppCompatActivity{
     public void botLimpar(View view){
         edtNome.setText("");
         edtCategoria.setText("");
-        edtMarca.setText("");
         edtNome.requestFocus();
     }
 
@@ -184,7 +181,6 @@ public class NovoProduto extends AppCompatActivity{
             edtNome.setText(produto.nome);
             edtCategoria.setText(produto.categoria);
             spinnerCategoria.setSelection(categorias().indexOf(produto.categoria));
-            edtMarca.setText(produto.marca);
             atualizar = true;
             getSupportActionBar().setTitle("Editar Produto");
             botSalvar.setText("ATUALIZAR");

@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/zabfw3/Documents/Projetos_mobile/AppControleDeEstoque/app/src/main/res/layout/activity_detalhe_produto.xml" value="0.4" />
+        <entry key="..\:/Users/zabfw3/Documents/Projetos_mobile/AppControleDeEstoque/app/src/main/res/layout/activity_novoprod.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/zabfw3/Documents/Projetos_mobile/AppControleDeEstoque/app/src/main/res/layout/content_novoprod.xml" value="0.264" />
+        <entry key="..\:/Users/zabfw3/Documents/Projetos_mobile/AppControleDeEstoque/app/src/main/res/layout/linha_categ_prod.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/zabfw3/Documents/Projetos_mobile/AppControleDeEstoque/app/src/main/res/layout/linha_categ_prod_compra.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/zabfw3/Documents/Projetos_mobile/AppControleDeEstoque/app/src/main/res/layout/linha_historicoprod.xml" value="0.6" />
+        <entry key="..\:/Users/zabfw3/Documents/Projetos_mobile/AppControleDeEstoque/app/src/main/res/layout/linha_mes_compra.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/zabfw3/Documents/Projetos_mobile/AppControleDeEstoque/app/src/main/res/layout/linha_prod_estoque.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/zabfw3/Documents/Projetos_mobile/AppControleDeEstoque/app/src/main/res/layout/linha_prodscomp.xml" value="0.264" />
+        <entry key="..\:/Users/zabfw3/Documents/Projetos_mobile/AppControleDeEstoque/app/src/main/res/layout/linha_produto.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

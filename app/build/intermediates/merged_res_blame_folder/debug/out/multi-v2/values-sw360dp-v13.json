@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lucas\\Google Drive\\AppAndroid\\ControleDeEstoque\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+            "outputFile": "C:\\Users\\zabfw3\\Documents\\Projetos_mobile\\AppControleDeEstoque\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lucas\\.gradle\\caches\\transforms-2\\files-2.1\\cadd846b851265ff8563738218c97606\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\zabfw3\\.gradle\\caches\\transforms-2\\files-2.1\\cadd846b851265ff8563738218c97606\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

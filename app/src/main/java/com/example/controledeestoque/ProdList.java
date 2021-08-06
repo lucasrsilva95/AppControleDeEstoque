@@ -43,6 +43,7 @@ public class ProdList extends AppCompatActivity implements NavigationView.OnNavi
     private List<String> categAbertas;
 
     private ProdListAdapter prodAdapter;
+    private CategProdListAdapter adapterCateg;
     private ProdutosRepositorio prodRep;
 
     private ComprasRepositorio compRep;
@@ -91,8 +92,9 @@ public class ProdList extends AppCompatActivity implements NavigationView.OnNavi
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         lstProd.setLayoutManager(linearLayoutManager);
 //        dados = prodRep.buscarTodos();
-        CategProdListAdapter adapterCateg = new CategProdListAdapter(categAbertas, getApplicationContext());
+        adapterCateg = new CategProdListAdapter(categAbertas, getApplicationContext());
         lstProd.setAdapter(adapterCateg);
+
     }
 
     public void novoProd(View view){
@@ -102,6 +104,7 @@ public class ProdList extends AppCompatActivity implements NavigationView.OnNavi
 
     @Override
     public boolean onContextItemSelected(@NonNull MenuItem item) {
+        prodAdapter = adapterCateg.prodAdapter;
         int id = item.getItemId();
         final Produto produto = prodAdapter.getContextMenuProduto();
         switch (id){

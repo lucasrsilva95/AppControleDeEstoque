@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="70dp"
+    android:layout_height="80dp"
     android:foreground="?attr/selectableItemBackground">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -66,6 +66,15 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
+            android:id="@+id/lblMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marca:"
+            app:layout_constraintBottom_toBottomOf="@+id/txtMarca"
+            app:layout_constraintStart_toStartOf="@+id/textView6"
+            app:layout_constraintTop_toTopOf="@+id/txtMarca" />
+
+        <TextView
             android:id="@+id/lblValUniKg"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
@@ -84,7 +93,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:layout_marginLeft="5dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:gravity="center_vertical"
             android:text="Confiança Rodoviária"
             android:textColor="#000000"
@@ -126,9 +135,24 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
+            android:id="@+id/txtMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Empório São João"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/lblMarca"
+            app:layout_constraintTop_toBottomOf="@+id/txtDataHora" />
+
+        <TextView
             android:id="@+id/txtPrecoUni"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
             android:text="R$000.00"
@@ -136,21 +160,21 @@
             android:textSize="14sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/txtLocalComp" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/txtValTotProd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
-            android:layout_marginBottom="10dp"
             android:text="R$000.00"
             android:textColor="@color/corDinheiro"
             android:textSize="14sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtPrecoUni" />
 
         <View
             android:id="@+id/divider2"

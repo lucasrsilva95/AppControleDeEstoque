@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "EXTRACTED_APKS",
+    "kind": "Directory"
+  },
+  "applicationId": "com.example.controledeestoque",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "outputFile": "../../extracted_apks/debug"
+    }
+  ]
+}

@@ -65,17 +65,6 @@
                 app:layout_constraintTop_toTopOf="@+id/txtLocalComp" />
 
             <TextView
-                android:id="@+id/lblMarca"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:gravity="center_vertical"
-                android:text="Marca:"
-                android:textSize="12sp"
-                app:layout_constraintStart_toStartOf="@+id/lblNome"
-                app:layout_constraintTop_toBottomOf="@+id/lblNome" />
-
-            <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
@@ -134,31 +123,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
                 android:layout_marginLeft="4dp"
-                android:layout_marginTop="17dp"
                 android:gravity="center_vertical"
                 android:text="Nome"
                 android:textColor="#1C1C1C"
                 android:textSize="16sp"
                 android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView6"
                 app:layout_constraintStart_toEndOf="@+id/lblNome"
                 app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/txtMarca"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
-                android:layout_marginLeft="4dp"
-                android:gravity="center_vertical"
-                android:text="Marca"
-                android:textColor="#1C1C1C"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/lblMarca"
-                app:layout_constraintEnd_toStartOf="@+id/textView6"
-                app:layout_constraintStart_toEndOf="@+id/lblMarca"
-                app:layout_constraintTop_toTopOf="@+id/lblMarca" />
 
             <TextView
                 android:id="@+id/txtValTot"

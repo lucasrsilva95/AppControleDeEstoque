@@ -25,6 +25,7 @@ public class CategProdListAdapter extends RecyclerView.Adapter<CategProdListAdap
     private List<Produto> prodsCateg;
     private ComprasRepositorio compRep;
     private ProdutosRepositorio prodRep;
+    public ProdListAdapter prodAdapter;
     private Context context;
     private boolean dataComHora;
 
@@ -60,7 +61,7 @@ public class CategProdListAdapter extends RecyclerView.Adapter<CategProdListAdap
                     linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
                     holder.lstProds.setLayoutManager(linearLayoutManager);
                     prodsCateg = prodRep.produtosDaCateg(categ);
-                    ProdListAdapter prodAdapter = new ProdListAdapter(prodsCateg, context);
+                    prodAdapter = new ProdListAdapter(prodsCateg, context);
                     holder.lstProds.setAdapter(prodAdapter);
                     holder.lstProds.setVisibility(View.VISIBLE);
                 } else {
@@ -117,5 +118,8 @@ public class CategProdListAdapter extends RecyclerView.Adapter<CategProdListAdap
     }
     public List<String> categoriasAbertas(){
         return categAbertas;
+    }
+    public Produto getContextMenuProduto(){
+        return prodAdapter.getContextMenuProduto();
     }
 }

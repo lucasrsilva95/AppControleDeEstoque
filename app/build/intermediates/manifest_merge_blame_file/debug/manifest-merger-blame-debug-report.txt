@@ -6,223 +6,223 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="15"
-8-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml
+8-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml
+9-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-11-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:6:5-79
-11-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:6:22-76
+11-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:6:5-79
+11-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:6:22-76
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:7:5-67
-12-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:7:22-64
+12-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:7:5-67
+12-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:7:22-64
 13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-13-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:8:5-81
-13-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:8:22-78
+13-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:8:5-81
+13-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:8:22-78
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-14-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:9:5-81
-14-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:9:22-78
+14-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:9:5-81
+14-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:9:22-78
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:10:5-80
-15-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:10:22-77
+15-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:10:5-80
+15-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:10:22-77
 16    <uses-permission android:name="android.permission.CAMERA" />
-16-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:11:5-64
-16-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:11:22-62
+16-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:11:5-64
+16-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:11:22-62
 17
 18    <uses-feature
-18-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:13:5-15:35
+18-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:13:5-15:35
 19        android:name="android.hardware.Camera"
-19-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:14:9-47
+19-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:14:9-47
 20        android:required="true" />
-20-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:15:9-32
+20-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:15:9-32
 21
 22    <uses-permission android:name="android.permission.VIBRATE" />
-22-->[com.wdullaer:materialdatetimepicker:3.6.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\773e29d5c71b6fb18e584180a8b412f8\jetified-materialdatetimepicker-3.6.0\AndroidManifest.xml:26:5-66
-22-->[com.wdullaer:materialdatetimepicker:3.6.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\773e29d5c71b6fb18e584180a8b412f8\jetified-materialdatetimepicker-3.6.0\AndroidManifest.xml:26:22-63
+22-->[com.wdullaer:materialdatetimepicker:3.6.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\8e5e028667cd82247080481cadb8a79c\jetified-materialdatetimepicker-3.6.0\AndroidManifest.xml:26:5-66
+22-->[com.wdullaer:materialdatetimepicker:3.6.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\8e5e028667cd82247080481cadb8a79c\jetified-materialdatetimepicker-3.6.0\AndroidManifest.xml:26:22-63
 23    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" /> <!-- Include required permissions for Google Maps API to run. -->
-23-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d86dd451563fcabc0e1a333e9bee1343\jetified-NotifyMe-1.0.1\AndroidManifest.xml:11:5-76
-23-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d86dd451563fcabc0e1a333e9bee1343\jetified-NotifyMe-1.0.1\AndroidManifest.xml:11:22-73
+23-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\ccda92882f69e65d21b9daf94703ee23\jetified-NotifyMe-1.0.1\AndroidManifest.xml:11:5-76
+23-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\ccda92882f69e65d21b9daf94703ee23\jetified-NotifyMe-1.0.1\AndroidManifest.xml:11:22-73
 24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
 25
 26    <uses-feature
-26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 27        android:glEsVersion="0x00020000"
-27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 28        android:required="true" />
-28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 29
 30    <application
-30-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:19:5-76:19
+30-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:19:5-76:19
 31        android:allowBackup="true"
-31-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:20:9-35
+31-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:20:9-35
 32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-32-->[androidx.core:core:1.1.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\73530a2d0c1df4b3085807c82555ce12\core-1.1.0\AndroidManifest.xml:24:18-86
+32-->[androidx.core:core:1.1.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\73530a2d0c1df4b3085807c82555ce12\core-1.1.0\AndroidManifest.xml:24:18-86
 33        android:debuggable="true"
 34        android:icon="@mipmap/ic_launcher"
-34-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:21:9-43
+34-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:21:9-43
 35        android:label="@string/app_name"
-35-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:22:9-41
+35-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:22:9-41
 36        android:requestLegacyExternalStorage="true"
-36-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:26:9-52
+36-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:26:9-52
 37        android:roundIcon="@mipmap/ic_launcher_round"
-37-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:23:9-54
+37-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:23:9-54
 38        android:supportsRtl="true"
-38-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:24:9-35
+38-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:24:9-35
 39        android:theme="@style/AppTheme" >
-39-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:25:9-40
+39-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:25:9-40
 40        <receiver android:name="com.example.controledeestoque.Receiver" />
-40-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:28:9-46
-40-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:28:19-43
+40-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:28:9-46
+40-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:28:19-43
 41        <receiver
-41-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:29:9-37:20
+41-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:29:9-37:20
 42            android:name="com.example.controledeestoque.BootService"
-42-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:30:13-40
+42-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:30:13-40
 43            android:enabled="true"
-43-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:32:13-35
+43-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:32:13-35
 44            android:exported="true" >
-44-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:31:13-36
+44-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:31:13-36
 45            <intent-filter>
-45-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:33:13-36:29
+45-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:33:13-36:29
 46                <action android:name="android.intent.action.BOOT_COMPLETED" />
-46-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:34:17-78
-46-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:34:25-76
+46-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:34:17-78
+46-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:34:25-76
 47
 48                <category android:name="android.intent.category.DEFAULT" />
-48-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:35:17-75
-48-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:35:27-73
+48-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:35:17-75
+48-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:35:27-73
 49            </intent-filter>
 50        </receiver>
 51
 52        <provider
 53            android:name="androidx.core.content.FileProvider"
-53-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:39:13-62
+53-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:39:13-62
 54            android:authorities="com.example.controledeestoque.fileprovider"
-54-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:40:13-64
+54-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:40:13-64
 55            android:exported="false"
-55-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:41:13-37
+55-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:41:13-37
 56            android:grantUriPermissions="true" >
-56-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:42:13-47
+56-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:42:13-47
 57            <meta-data
-57-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:43:13-45:53
+57-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:43:13-45:53
 58                android:name="android.support.FILE_PROVIDER_PATHS"
-58-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:44:17-67
+58-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:44:17-67
 59                android:resource="@xml/file_path" />
-59-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:45:17-50
+59-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:45:17-50
 60        </provider>
 61
 62        <activity android:name="com.example.controledeestoque.Estoque" />
-62-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:47:9-45
-62-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:47:19-42
+62-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:47:9-45
+62-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:47:19-42
 63        <activity android:name="com.example.controledeestoque.DisplayImage" />
-63-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:48:9-50
-63-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:48:19-47
+63-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:48:9-50
+63-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:48:19-47
 64        <activity android:name="com.example.controledeestoque.SettingsActivity" />
-64-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:49:9-54
-64-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:49:19-51
+64-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:49:9-54
+64-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:49:19-51
 65        <activity android:name="com.example.controledeestoque.ComprasFuturas" />
-65-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:50:9-52
-65-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:50:19-49
+65-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:50:9-52
+65-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:50:19-49
 66        <activity android:name="com.example.controledeestoque.CompList" />
-66-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:51:9-46
-66-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:51:19-43
+66-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:51:9-46
+66-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:51:19-43
 67        <activity android:name="com.example.controledeestoque.DetalhesCompra" />
-67-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:52:9-52
-67-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:52:19-49
+67-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:52:9-52
+67-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:52:19-49
 68        <activity
-68-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:53:9-54:98
+68-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:53:9-54:98
 69            android:name="com.example.controledeestoque.NovaCompra"
-69-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:53:19-45
+69-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:53:19-45
 70            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout" />
-70-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:54:13-96
+70-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:54:13-96
 71        <activity android:name="com.example.controledeestoque.DetalhesProduto" />
-71-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:55:9-53
-71-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:55:19-50
+71-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:55:9-53
+71-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:55:19-50
 72        <activity android:name="com.example.controledeestoque.ProdList" />
-72-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:56:9-46
-72-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:56:19-43
+72-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:56:9-46
+72-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:56:19-43
 73        <activity android:name="com.example.controledeestoque.Mapa" />
-73-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:57:9-42
-73-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:57:19-39
+73-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:57:9-42
+73-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:57:19-39
 74
 75        <meta-data
-75-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:59:9-61:71
+75-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:59:9-61:71
 76            android:name="com.google.android.geo.API_KEY"
-76-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:60:13-58
+76-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:60:13-58
 77            android:value="AIzaSyDH2n7JVnFLrZqliZqP6Gt0xP9EXbyFcsQ" />
-77-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:61:13-68
+77-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:61:13-68
 78
 79        <!-- <activity android:name=".Adapters.ProdutoAdapter" /> -->
 80        <!-- <activity android:name=".Adapters.CompraAdapter" -->
 81        <!-- android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout"/> -->
 82        <activity
-82-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:66:9-68:58
+82-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:66:9-68:58
 83            android:name="com.example.controledeestoque.NovoProduto"
-83-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:67:13-40
+83-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:67:13-40
 84            android:windowSoftInputMode="stateVisible" />
-84-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:68:13-55
+84-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:68:13-55
 85        <activity android:name="com.example.controledeestoque.MainActivity" >
-85-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:69:9-75:20
-85-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:69:19-47
+85-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:69:9-75:20
+85-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:69:19-47
 86            <intent-filter>
-86-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:70:13-74:29
+86-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:70:13-74:29
 87                <action android:name="android.intent.action.MAIN" />
-87-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:71:17-69
-87-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:71:25-66
+87-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:71:17-69
+87-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:71:25-66
 88
 89                <category android:name="android.intent.category.LAUNCHER" />
-89-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:73:17-77
-89-->C:\Users\lucas\Google Drive\AppAndroid\ControleDeEstoque\app\src\main\AndroidManifest.xml:73:27-74
+89-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:73:17-77
+89-->C:\Users\zabfw3\Documents\Projetos_mobile\AppControleDeEstoque\app\src\main\AndroidManifest.xml:73:27-74
 90            </intent-filter>
 91        </activity>
 92
 93        <receiver
-93-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d86dd451563fcabc0e1a333e9bee1343\jetified-NotifyMe-1.0.1\AndroidManifest.xml:14:9-17:39
+93-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\ccda92882f69e65d21b9daf94703ee23\jetified-NotifyMe-1.0.1\AndroidManifest.xml:14:9-17:39
 94            android:name="com.allyants.notifyme.BootNotifyMe"
-94-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d86dd451563fcabc0e1a333e9bee1343\jetified-NotifyMe-1.0.1\AndroidManifest.xml:15:13-62
+94-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\ccda92882f69e65d21b9daf94703ee23\jetified-NotifyMe-1.0.1\AndroidManifest.xml:15:13-62
 95            android:enabled="true"
-95-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d86dd451563fcabc0e1a333e9bee1343\jetified-NotifyMe-1.0.1\AndroidManifest.xml:16:13-35
+95-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\ccda92882f69e65d21b9daf94703ee23\jetified-NotifyMe-1.0.1\AndroidManifest.xml:16:13-35
 96            android:exported="true" />
-96-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d86dd451563fcabc0e1a333e9bee1343\jetified-NotifyMe-1.0.1\AndroidManifest.xml:17:13-36
+96-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\ccda92882f69e65d21b9daf94703ee23\jetified-NotifyMe-1.0.1\AndroidManifest.xml:17:13-36
 97        <receiver
-97-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d86dd451563fcabc0e1a333e9bee1343\jetified-NotifyMe-1.0.1\AndroidManifest.xml:18:9-21:39
+97-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\ccda92882f69e65d21b9daf94703ee23\jetified-NotifyMe-1.0.1\AndroidManifest.xml:18:9-21:39
 98            android:name="com.allyants.notifyme.ActionReceiver"
-98-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d86dd451563fcabc0e1a333e9bee1343\jetified-NotifyMe-1.0.1\AndroidManifest.xml:19:13-64
+98-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\ccda92882f69e65d21b9daf94703ee23\jetified-NotifyMe-1.0.1\AndroidManifest.xml:19:13-64
 99            android:enabled="true"
-99-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d86dd451563fcabc0e1a333e9bee1343\jetified-NotifyMe-1.0.1\AndroidManifest.xml:20:13-35
+99-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\ccda92882f69e65d21b9daf94703ee23\jetified-NotifyMe-1.0.1\AndroidManifest.xml:20:13-35
 100            android:exported="true" />
-100-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d86dd451563fcabc0e1a333e9bee1343\jetified-NotifyMe-1.0.1\AndroidManifest.xml:21:13-36
+100-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\ccda92882f69e65d21b9daf94703ee23\jetified-NotifyMe-1.0.1\AndroidManifest.xml:21:13-36
 101        <receiver
-101-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d86dd451563fcabc0e1a333e9bee1343\jetified-NotifyMe-1.0.1\AndroidManifest.xml:22:9-25:39
+101-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\ccda92882f69e65d21b9daf94703ee23\jetified-NotifyMe-1.0.1\AndroidManifest.xml:22:9-25:39
 102            android:name="com.allyants.notifyme.DeletePendingIntent"
-102-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d86dd451563fcabc0e1a333e9bee1343\jetified-NotifyMe-1.0.1\AndroidManifest.xml:23:13-69
+102-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\ccda92882f69e65d21b9daf94703ee23\jetified-NotifyMe-1.0.1\AndroidManifest.xml:23:13-69
 103            android:enabled="true"
-103-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d86dd451563fcabc0e1a333e9bee1343\jetified-NotifyMe-1.0.1\AndroidManifest.xml:24:13-35
+103-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\ccda92882f69e65d21b9daf94703ee23\jetified-NotifyMe-1.0.1\AndroidManifest.xml:24:13-35
 104            android:exported="true" /> <!-- Needs to be explicitly declared on P+ -->
-104-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d86dd451563fcabc0e1a333e9bee1343\jetified-NotifyMe-1.0.1\AndroidManifest.xml:25:13-36
+104-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\ccda92882f69e65d21b9daf94703ee23\jetified-NotifyMe-1.0.1\AndroidManifest.xml:25:13-36
 105        <uses-library
-105-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+105-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 106            android:name="org.apache.http.legacy"
-106-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+106-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 107            android:required="false" />
-107-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+107-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 108
 109        <activity
-109-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+109-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 110            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-110-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+110-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 111            android:exported="false"
-111-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+111-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-112-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+112-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 113
 114        <meta-data
-114-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\f46279d3478497538e817a8da381f082\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+114-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\f46279d3478497538e817a8da381f082\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 115            android:name="com.google.android.gms.version"
-115-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\f46279d3478497538e817a8da381f082\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+115-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\f46279d3478497538e817a8da381f082\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 116            android:value="@integer/google_play_services_version" />
-116-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\f46279d3478497538e817a8da381f082\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+116-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\zabfw3\.gradle\caches\transforms-2\files-2.1\f46279d3478497538e817a8da381f082\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 117    </application>
 118
 119</manifest>

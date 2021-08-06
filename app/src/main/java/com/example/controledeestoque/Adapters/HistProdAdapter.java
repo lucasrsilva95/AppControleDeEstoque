@@ -52,7 +52,6 @@ public class HistProdAdapter extends RecyclerView.Adapter<HistProdAdapter.ViewHo
         if ((dados != null) && (dados.size() > 0)){
             Compra compra = dados.get(position);
             holder.txtLocal.setText(compra.local);
-
             SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
             dataComHora = prefs.getBoolean("horaMin_switch",true);
             if (dataComHora) {
@@ -61,6 +60,7 @@ public class HistProdAdapter extends RecyclerView.Adapter<HistProdAdapter.ViewHo
                 holder.txtData.setText(compra.data.substring(0,10));
             }
             Produto prod = prodEmCompra(compra, produto);
+            holder.txtMarca.setText(prod.marca);
             holder.txtPrecoUni.setText(String.format("R$%.2f",prod.preço));
             holder.lblUnidade.setText(prod.unidade);
             if ("un".contains(prod.unidade)) {
@@ -81,12 +81,13 @@ public class HistProdAdapter extends RecyclerView.Adapter<HistProdAdapter.ViewHo
 
     public class ViewHolderHistProd extends RecyclerView.ViewHolder{
 
-        public TextView txtLocal,txtData,txtPrecoUni,txtQuant, txtValTotProd, lblUnidade, lblValUniKg;
+        public TextView txtLocal,txtData,txtPrecoUni,txtQuant, txtValTotProd, lblUnidade, lblValUniKg, txtMarca;
 
         public ViewHolderHistProd(@NonNull View itemView, final Context context) {
             super(itemView);
 
             txtLocal = itemView.findViewById(R.id.txtLocalComp);
+            txtMarca = itemView.findViewById(R.id.txtMarca);
             txtData = itemView.findViewById(R.id.txtDataHora);
             txtPrecoUni = itemView.findViewById(R.id.txtPrecoUni);
             txtQuant = itemView.findViewById(R.id.txtQuant);

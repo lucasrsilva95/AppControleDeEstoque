@@ -63,7 +63,6 @@ public class ProdListAdapter extends RecyclerView.Adapter<ProdListAdapter.ViewHo
 //            formatCateg(holder, produto);
             if (!"".contains(produto.nome)) {
                 holder.txtNome.setText(produto.nome);
-                holder.txtMarca.setText(produto.marca);
                 if (produto.preço != 0.00f) {
                     holder.txtUltPreco.setText(String.format("R$%.2f", produto.preço));
                 } else {
@@ -97,7 +96,7 @@ public class ProdListAdapter extends RecyclerView.Adapter<ProdListAdapter.ViewHo
 
     public class ViewHolderProduto extends RecyclerView.ViewHolder{
 
-        public TextView txtNome,lblMarca,txtMarca,lblUltPreco,txtUltPreco,txtUltComp,txtHora,lblProxComp,txtProxComp,txtCateg,lblCateg,lblUltComp;
+        public TextView txtNome,txtUltPreco,txtUltComp,txtHora,lblProxComp,txtProxComp,txtCateg,lblCateg,lblUltComp;
         public ConstraintLayout layout1,layout2;
         public LinearLayout prodLayout;
 
@@ -105,7 +104,6 @@ public class ProdListAdapter extends RecyclerView.Adapter<ProdListAdapter.ViewHo
             super(itemView);
 
             txtNome = itemView.findViewById(R.id.txtLocalComp);
-            txtMarca = itemView.findViewById(R.id.txtMarca);
             txtUltPreco = itemView.findViewById(R.id.txtValTot);
             txtUltComp = itemView.findViewById(R.id.txtUltComp);
             txtProxComp = itemView.findViewById(R.id.txtProxComp);
@@ -119,10 +117,9 @@ public class ProdListAdapter extends RecyclerView.Adapter<ProdListAdapter.ViewHo
             itemView.setOnCreateContextMenuListener(new View.OnCreateContextMenuListener() {
                 @Override
                 public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
-
-                    prodContextMenu = dados.get(getLayoutPosition());
-                    menu.add(getLayoutPosition(),ITEM_EDITAR,0,"Editar");
-                    menu.add(getLayoutPosition(),ITEM_DELETAR,1,"Deletar");
+                prodContextMenu = dados.get(getLayoutPosition());
+                menu.add(getLayoutPosition(),ITEM_EDITAR,0,"Editar");
+                menu.add(getLayoutPosition(),ITEM_DELETAR,1,"Deletar");
                 }
             });
 

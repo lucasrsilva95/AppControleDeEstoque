@@ -1829,7 +1829,6 @@ id dropdown_menu
 id edit_query
 id edtCategoria
 id edtLocal
-id edtMarca
 id edtNome
 id edtPreco
 id edtQuant
@@ -2113,7 +2112,6 @@ id textView28
 id textView3
 id textView5
 id textView6
-id textView7
 id textView8
 id textView9
 id textViewNumProd
