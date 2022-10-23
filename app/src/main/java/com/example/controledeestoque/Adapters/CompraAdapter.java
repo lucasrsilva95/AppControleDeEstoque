@@ -2,11 +2,9 @@ package com.example.controledeestoque.Adapters;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.graphics.Color;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
-import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,11 +17,8 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import androidx.annotation.ColorInt;
-import androidx.annotation.ColorRes;
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.controledeestoque.R;
@@ -36,9 +31,10 @@ import java.util.List;
 
 public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-    private TextView txtTotComp;
+    private final TextView txtTotComp;
 
-    private List<Produto> dados, selecionados;
+    private final List<Produto> dados;
+    private final List<Produto> selecionados;
     private Compra compra;
     private ComprasRepositorio compRep;
     private ViewHolderCompra holderComp;
@@ -70,15 +66,14 @@ public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
         if (viewType == 0) {
             View view = layoutInflater.inflate(R.layout.linha_compra, parent, false);
-            ViewHolderCompra holderCompra = new ViewHolderCompra(view, parent.getContext());
-            return holderCompra;
+            return new ViewHolderCompra(view, parent.getContext());
         } else {
             View view = layoutInflater.inflate(R.layout.linha_categ, parent, false);
-            ViewHolderCateg holderCateg = new ViewHolderCateg(view);
-            return holderCateg;
+            return new ViewHolderCateg(view);
         }
     }
 
+    @SuppressLint({"DefaultLocale", "SetTextI18n"})
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
 
@@ -184,7 +179,7 @@ public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
             spinnerQuant = (Spinner) itemView.findViewById(R.id.spinnerQuant);
             layoutGeralComp = (ConstraintLayout) itemView.findViewById(R.id.layoutGeralComp);
             linLayout = (LinearLayout) itemView.findViewById(R.id.linLayout);
-            preçoInvisivel();
+            precoInvisivel();
             select.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -199,7 +194,7 @@ public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
                                 produto.preço = 0.0f;
                             }
                             select.setChecked(true);
-                            preçoVisivel();
+                            precoVisivel();
                             abrirTeclado(edtPreco);
                             if ("un".contains(produto.unidade)) {
                                 edtQuant.setVisibility(View.INVISIBLE);
@@ -212,7 +207,7 @@ public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
                         } else {
                             selecionados.remove(produto);
                             select.setChecked(false);
-                            preçoInvisivel();
+                            precoInvisivel();
                             fecharTeclado(edtPreco);
                         }
                     }
@@ -234,7 +229,7 @@ public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
                                 }
                                 edtPreco.setText("");
                                 select.setChecked(true);
-                                preçoVisivel();
+                                precoVisivel();
                                 abrirTeclado(edtPreco);
                                 if ("un".contains(produto.unidade)) {
                                     edtQuant.setVisibility(View.INVISIBLE);
@@ -248,7 +243,7 @@ public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
                             } else {
                                 selecionados.remove(produto);
-                                preçoInvisivel();
+                                precoInvisivel();
                                 fecharTeclado(edtPreco);
                             }
                             atualizarTotComp();
@@ -267,6 +262,7 @@ public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
                 }
 
+                @SuppressLint("DefaultLocale")
                 @Override
                 public void afterTextChanged(Editable s) {
                     Produto produto = dados.get(getLayoutPosition());
@@ -304,6 +300,7 @@ public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
                 }
 
+                @SuppressLint("DefaultLocale")
                 @Override
                 public void afterTextChanged(Editable s) {
                     Produto produto = dados.get(getLayoutPosition());
@@ -331,6 +328,7 @@ public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
             });
 
             spinnerQuant.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                @SuppressLint("DefaultLocale")
                 @Override
                 public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                     if (select.isChecked() && spinnerQuant.getVisibility() == View.VISIBLE) {
@@ -353,7 +351,7 @@ public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
             });
         }
 
-        public void preçoVisivel() {
+        public void precoVisivel() {
             select.setChecked(true);
             lblUltpreco.setVisibility(View.VISIBLE);
             lblValTotProd.setVisibility(View.VISIBLE);
@@ -368,7 +366,7 @@ public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
             edtPreco.requestFocus();
         }
 
-        public void preçoInvisivel() {
+        public void precoInvisivel() {
             select.setChecked(false);
             lblUltpreco.setVisibility(View.INVISIBLE);
             lblValTotProd.setVisibility(View.INVISIBLE);
@@ -384,7 +382,7 @@ public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         }
     }
 
-    public class ViewHolderCateg extends RecyclerView.ViewHolder{
+    public static class ViewHolderCateg extends RecyclerView.ViewHolder{
 
         public TextView lblCateg, txtCateg;
 
@@ -419,6 +417,7 @@ public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         return -1;
     }
 
+    @SuppressLint("DefaultLocale")
     public void atualizarTotComp() {
         double tot = 0.0;
         for (Produto prod : selecionados) {
@@ -432,7 +431,7 @@ public class CompraAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
     public List<Integer> quants() {
         List<Integer> numeros = new ArrayList<>();
-        int numMax = 50;
+        int numMax = 200;
         for (int i = 1; i <= numMax; i++) {
             numeros.add(i);
         }
