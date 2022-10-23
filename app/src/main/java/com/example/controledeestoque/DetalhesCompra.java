@@ -13,6 +13,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.ContentUris;
 import android.content.Context;
@@ -66,10 +68,12 @@ import java.io.OutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+@RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
 public class DetalhesCompra extends AppCompatActivity implements OnMapReadyCallback {
 
     private String loc;
-    private int codigo, horaNotif, minutoNotif;
+    private int horaNotif;
+    private int minutoNotif;
     private boolean dataComHora, salvarLoc, notif;
 
     private Bundle bundle;
@@ -96,14 +100,13 @@ public class DetalhesCompra extends AppCompatActivity implements OnMapReadyCallb
     private static final int VOLTAR_INICIO = 1, REQUEST_CODE_MAPA = 101, PERMISSAO_REQUEST = 102, CAMERA = 103, REMOVER_LOC_MAPA = 104,
             REQUEST_EXTERNAL_STORAGE = 105, REQUEST_CODE_CAMERA = 106, FOTO_ALTERADA = 107, NOVA_FOTO = 108, ESCOLHER_ARQUIVO = 109
             , FOTO_NAO_ENCONTRADA = 110, LOC_MAPA_ALTERADO = 111;
-    private static String[] PERMISSIONS_STORAGE = {
+    private static final String[] PERMISSIONS_STORAGE = {
             Manifest.permission.READ_EXTERNAL_STORAGE,
             Manifest.permission.WRITE_EXTERNAL_STORAGE};
     public LatLng latLng;
 
     public File imagem;
     private File arquivoFoto = null;
-    private Uri photoURI;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -193,6 +196,7 @@ public class DetalhesCompra extends AppCompatActivity implements OnMapReadyCallb
         compra = new Compra();
         bundle = getIntent().getExtras();
 
+        int codigo;
         if((bundle != null) && (bundle.containsKey("COMPRA"))){
             compra = (Compra)bundle.getSerializable("COMPRA");
             codigo = compra.codigo;
@@ -343,19 +347,26 @@ public class DetalhesCompra extends AppCompatActivity implements OnMapReadyCallb
 //        String timeStamp = new SimpleDateFormat("ddMMyyyy_HHmmss").format(new Date());
 
         String nomeArquivo;
+        String purchaseDate = compra.data.replaceAll("/","_").replaceAll(":","_");
         if (!"".contains(compra.local)) {
-            nomeArquivo = compra.local + "_" + compra.data.replaceAll("/","_");
+            nomeArquivo = compra.local + "_" + purchaseDate;
         } else {
-            nomeArquivo = "JPG_" + compra.data;
+            nomeArquivo = "JPG_" + purchaseDate;
         }
 
-        File pasta = new File("/sdcard/Pictures/Notas");
-        if(!pasta.exists()){
-            pasta.mkdir();
-        }
-        imagem = new File(pasta.getAbsolutePath() + File.separator + nomeArquivo + ".jpg");
+        try {
+            File pasta = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/Controle_de_estoque/Notas");
+            if(!pasta.exists())
+                pasta.mkdirs();
 
-        return imagem;
+            imagem = new File(pasta.getAbsolutePath() + File.separator + nomeArquivo + ".jpg");
+
+            return imagem;
+        }catch (NullPointerException e){
+            Toast.makeText(this, e.getMessage(),Toast.LENGTH_LONG);
+            return null;
+        }
+
     }
 
     public void captureImage(View view){
@@ -380,8 +391,9 @@ public class DetalhesCompra extends AppCompatActivity implements OnMapReadyCallb
             arquivoFoto = criarArquivo();
 
             if(arquivoFoto != null){
-                photoURI = FileProvider.getUriForFile(getBaseContext(), getBaseContext().getApplicationContext().getPackageName() + ".fileprovider", arquivoFoto);
+                Uri photoURI = FileProvider.getUriForFile(getBaseContext(), getBaseContext().getApplicationContext().getPackageName() + ".fileprovider", arquivoFoto);
                 cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
+                cameraIntent.addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
                 startActivityForResult(cameraIntent, CAMERA);
             }
 
@@ -503,11 +515,10 @@ public class DetalhesCompra extends AppCompatActivity implements OnMapReadyCallb
                 }else{
                     //Permissao negada
                 }
-                return;
         }
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+    // @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         switch (resultCode){
@@ -524,7 +535,7 @@ public class DetalhesCompra extends AppCompatActivity implements OnMapReadyCallb
                 break;
             case LOC_MAPA_ALTERADO:
                 compra.locMap = data.getStringExtra("Coordenadas");
-                if(compra.codigo != 0){
+                if(compra.codigo != 0 && compra.locMap != null){
                     compRep.alterar(compra);
                 }
                 break;
@@ -557,12 +568,10 @@ public class DetalhesCompra extends AppCompatActivity implements OnMapReadyCallb
                 compra.foto = null;
                 break;
         }
-        if(requestCode == CAMERA && resultCode == RESULT_OK){
+        if(requestCode == CAMERA && resultCode == Activity.RESULT_OK){
             sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, Uri.fromFile(arquivoFoto)));
             Toast.makeText(this, "Foto Salva com Sucesso", Toast.LENGTH_LONG).show();
-            if (compra.foto != null) {
-                compra.deletarFoto();
-            }
+
             compra.foto = imagem;
             botCamera.setVisibility(View.GONE);
             botPasta.setVisibility(View.GONE);
@@ -575,7 +584,7 @@ public class DetalhesCompra extends AppCompatActivity implements OnMapReadyCallb
         if(requestCode == ESCOLHER_ARQUIVO && resultCode == RESULT_OK && data != null){
 
             Uri imageUri = data.getData();
-            Bitmap bitmap = null;
+            Bitmap bitmap;
             try {
                 bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), imageUri);
 
@@ -586,7 +595,7 @@ public class DetalhesCompra extends AppCompatActivity implements OnMapReadyCallb
                 bitmap.compress(Bitmap.CompressFormat.JPEG,100,bos);
                 byte[] bitmapdata = bos.toByteArray();
 
-                FileOutputStream fos = null;
+                FileOutputStream fos;
                 fos = new FileOutputStream(foto);
                 fos.write(bitmapdata);
 
